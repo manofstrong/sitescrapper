@@ -18,11 +18,11 @@
 		}
 	],
     "require": {
-		"php": ">= 7.0",
         "catfan/medoo": "^1.6",
         "fabpot/goutte": "^3.2",
         "sunra/php-simple-html-dom-parser": "^1.5",
 		"vipnytt/sitemapparser": "^1.0",
+        "dotpack/php-boiler-pipe": "dev-master",
 		"donatello-za/rake-php-plus": "^1.0"
     },
     "require-dev": {
