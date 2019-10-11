@@ -167,7 +167,7 @@ class SiteScrapper{
 	
    /**
 	* Extracts content from the webpage provided through.
-	* Uses class DotPack\PhpBoilerPipe\ArticleExtractor by @https://github.com/dotpack/php-boiler-pipe
+	* Uses class ExtractContent\ExtractContent by @https://github.com/sters/extract-content
 	*
 	* @param string $url
 	* @return array [$title, $importantContent]
