@@ -255,6 +255,10 @@ class SiteScrapper{
 	*/	
 	public function singleSiteMap($singleUrl){		
 	
+		if (0 == count($this -> databaseArray)){
+			trigger_error('You need to provide database credentials through method databaseCredentials().', E_USER_ERROR);
+		}
+	
 		try {
 			
 			$parser = new SitemapParser($this->finalUserAgent());
