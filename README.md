@@ -95,6 +95,8 @@ $scrapeThisSite -> siteMapsArray($sitemapArray);
 Method to extract the webpages from sitemaps provided via array. This will go through the all sites in the file, and update the database provided. It will return the url and completion status. This is advisable if you have more than 10 different sites that you want to scrape.
 
 The file must must a text file and the each sitemap must be in its own line without any other text. The urls must also be in compliance with the `[RFC 2396]`(https://www.ietf.org/rfc/rfc2396.txt).
+
+For the sitemap urls that are not compliant, the library will create a file called `skippedeurls.txt` and list them there. You can then go through this file making  the corrections needed to ensure compliance. 
 ```php
 <?php
 require 'vendor/autoload.php';
