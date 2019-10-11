@@ -54,7 +54,7 @@ use manofstrong\SiteScrapper;
 $scrapeThisSite = new SiteScrapper();
 
 $singleSitemapUrl = 'https://www.php.com/sitemap.xml';   // can be .xml or .xml.gz or robots.txt file
-$numberOfPages = 2;										 // must be a digit without single or double quotation marks: '2' or "2" will fail.
+$numberOfPages = 2;	// must be a digit without single or double quotation marks: '2' or "2" will fail.
  
 $scrapeThisSite -> showContentSiteMap($singleSitemapUrl, $numberOfPages);
 
