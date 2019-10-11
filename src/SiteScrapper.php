@@ -166,7 +166,7 @@ class SiteScrapper{
 	}
 	
    /**
-	* Extracts content from the webpage provided through.
+	* Extracts the title and the importcontent from webpage provided.
 	* Uses class ExtractContent\ExtractContent by @https://github.com/sters/extract-content
 	*
 	* @param string $url
