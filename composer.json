@@ -23,7 +23,7 @@
         "fabpot/goutte": "^3.2",
         "sunra/php-simple-html-dom-parser": "^1.5",
 		"vipnytt/sitemapparser": "^1.0",
-        "dotpack/php-boiler-pipe": "dev-master",
+        "dotpack/php-boiler-pipe": "@dev",
 		"donatello-za/rake-php-plus": "^1.0"
     },
     "require-dev": {
