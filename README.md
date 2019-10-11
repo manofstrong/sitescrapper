@@ -137,7 +137,7 @@ $scrapeThisSite -> siteMapFile($sitemapFile);
     http://site21.com/sitemap.xml
 
 ### Advanced setting of setting User Agent
-__Note:__ The default User Agent is `ManofStrong SiteScrapper Tool v1.0 (+https://github.com/manofstrong/sitescrapper/)"`
+__Note:__ The default User Agent is `ManofStrong SiteScrapper Tool v1.0 (+https://github.com/manofstrong/sitescrapper/)`
 
 If you want to change and have your own just use this method.
 ```php
