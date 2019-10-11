@@ -187,7 +187,7 @@ class SiteScrapper{
 
 		$htmlBodyContent = $crawler->filter($html_tag)->html();
 		
-		$extractor = new \ExtractContent($htmlBodyContent);
+		$extractor = new ExtractContent($htmlBodyContent);
 		
 		$importantContent = $extractor->analyse();
 		
