@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Manofstrong\\SiteScrapper\\": "src/"
+            "manofstrong\\sitescrapper\\": "src/"
         }
     },
 	"autoload-dev": {
 		"psr-4": {
-		  "Manofstrong\\SiteScrapper\\Tests\\": "tests/"
+		  "manofstrong\\sitescrapper\\Tests\\": "tests/"
 		}
 	},	
     "minimum-stability": "dev",
