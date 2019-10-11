@@ -1,3 +1,4 @@
+.git
 /public/*
 /vendor/*
 composer.lock
