@@ -48,7 +48,7 @@ Returns the content of a specified number of pages from a single sitemap. Does n
 <?php
 require 'vendor/autoload.php';
 
-use manofstrong\SiteScrapper;
+use Manofstrong\sitescrapper;
 $scrapeThisSite = new SiteScrapper();
 
 $singleSitemapUrl = 'https://www.php.com/sitemap.xml';   // can be .xml or .xml.gz or robots.txt file
@@ -65,7 +65,7 @@ Method to extract the webpages from a single sitemap. This will go through the s
 <?php
 require 'vendor/autoload.php';
 
-use manofstrong\SiteScrapper;
+use Manofstrong\sitescrapper;
 $scrapeThisSite = new SiteScrapper();
 
 $singleSitemapUrl = 'https://www.php.net/sitemap.xml';
@@ -81,7 +81,7 @@ Method to extract the webpages from sitemaps provided via array. This will go th
 <?php
 require 'vendor/autoload.php';
 
-use manofstrong\SiteScrapper;
+use Manofstrong\sitescrapper;
 $scrapeThisSite = new SiteScrapper();
 
 $sitemapArray = ['https://site1.com/sitemap.xml','https://site2.com/sitemap.xml','https://site3.com/sitemap.xml'];
@@ -99,7 +99,7 @@ The file must must a text file and the each sitemap must be in its own line with
 <?php
 require 'vendor/autoload.php';
 
-use manofstrong\SiteScrapper;
+use Manofstrong\sitescrapper;
 $scrapeThisSite = new SiteScrapper();
 
 $sitemapFile  = __DIR__ . '/yourtextfile.txt';
@@ -142,7 +142,7 @@ If you want to change and have your own just use this method.
 <?php
 require 'vendor/autoload.php';
 
-use manofstrong\SiteScrapper;
+use Manofstrong\sitescrapper;
 $scrapeThisSite = new SiteScrapper();
 
 $scrapeThisSite -> setUserAgent('Example User Agent. For Text Data Data Assigment.');
