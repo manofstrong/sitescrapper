@@ -45,6 +45,7 @@ Then run `composer update`.
 Returns the content of a specified number of pages from a single sitemap. Does not store into database.
 
 ```php
+<?php
 require 'vendor/autoload.php';
 
 use manofstrong\SiteScrapper;
