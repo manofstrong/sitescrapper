@@ -68,7 +68,7 @@ require 'vendor/autoload.php';
 use Manofstrong\sitescrapper;
 $scrapeThisSite = new SiteScrapper();
 
-$singleSitemapUrl = 'https://www.php.net/sitemap.xml';
+$singleSitemapUrl = 'https://www.php.com/sitemap.xml';
  
 // MySQL table structure in the database folder of this repository
 $scrapeThisSite -> databaseCredentials('database','host','username','password'); 
