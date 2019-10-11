@@ -18,7 +18,6 @@
 		}
 	],
     "require": {
-		"php": ">= 7.0",
         "catfan/medoo": "^1.6",
         "fabpot/goutte": "^3.2",
         "sunra/php-simple-html-dom-parser": "^1.5",

@@ -28,9 +28,6 @@ Basically, this is a blind bulk scrapping tool, just provide it with a list of s
 ## Sitemap File Formats supported
 - Text `text/txt`
 
-## Requirements:
-- PHP [ 7.0+](http://php.net/supported-versions.php), alternatively [HHVM](http://hhvm.com)
-
 ## Installation
 The library is available for install via [Composer](https://getcomposer.org). Just add this to your `composer.json` file:
 ```json
