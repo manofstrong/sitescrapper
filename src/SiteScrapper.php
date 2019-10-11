@@ -14,6 +14,7 @@ use Medoo\Medoo;
 use Goutte\Client;
 use vipnytt\SitemapParser;
 use DonatelloZa\RakePlus\RakePlus;
+use ExtractContent\ExtractContent;
 use vipnytt\SitemapParser\Exceptions\SitemapParserException;
 
 class SiteScrapper{
@@ -186,9 +187,9 @@ class SiteScrapper{
 
 		$htmlBodyContent = $crawler->filter($html_tag)->html();
 		
-		$extractor = new \DotPack\PhpBoilerPipe\ArticleExtractor();
+		$extractor = new \ExtractContent($htmlBodyContent);
 		
-		$importantContent = $extractor->getContent($htmlBodyContent);
+		$importantContent = $extractor->analyse();
 		
 		return [$title, $importantContent];
 	}
