@@ -191,7 +191,7 @@ class SiteScrapper{
 		
 		$importantContent = $extractor->analyse();
 		
-		return [$title, $importantContent];
+		return [$title, implode("\r\n", $importantContent)];
 	}
 	
    /**
