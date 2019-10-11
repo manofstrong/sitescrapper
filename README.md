@@ -58,7 +58,8 @@ $scrapeThisSite -> showContentSiteMap($singleSitemapUrl, $numberOfPages);
 
 ```
 This command displays the content of each page as an array with the four elements the url, the title, the keywords, the content, and the word count as shown in the image below:
-![An image of the method showContentSiteMap() displaying of the two pages as arrays](https://www.nerdyclues.com/githubstuff/basicexample.png)
+
+![An image of the method showContentSiteMap() displaying of the two pages as arrays](https://raw.githubusercontent.com/manofstrong/sitescrapper/master/public/basicexample.png)
 ### A single sitemap
 Method to extract the webpages from a single sitemap. This will go through the sites and update the database provided. It will return the url and completion status. 
 ```php
