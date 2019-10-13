@@ -153,7 +153,7 @@ $scrapeThisSite -> setUserAgent('Example User Agent. For Text Data Data Assigmen
 ```
 
 ## License:
-Medoo is under the MIT license.
+SiteScrapper is under the MIT license.
 
 ## Limitations:
 This is not a precise data collection tools especially for those who want to obtain specific sections of a webpage to the exclusion of others. This library simply collects the most important section of the webpage such as large blocks of text. Therefore, this library best works for someone with the goal of massive text data collection and extraction for big data or other analytical research.
