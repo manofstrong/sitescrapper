@@ -33,7 +33,7 @@ The library is available for install via [Composer](https://getcomposer.org). Ju
 ```json
 {
     "require": {
-        "manofstrong/sitescrapper": "^1.0"
+        "manofstrong/sitescrapper": "^0.0.1"
     }
 }
 ```
